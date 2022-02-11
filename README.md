@@ -10,6 +10,7 @@ Restaurant Database
 
 # Author(s)
 Roselle Mata
+
 Kurtis Jemison
 
 # Database description
