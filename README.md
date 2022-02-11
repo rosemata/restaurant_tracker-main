@@ -6,11 +6,12 @@
 1. [Database description](#description)
 
 # Database
-DATABASE NAME
+Restaurant Database
 
 # Author(s)
 Roselle Mata
-AUTHOR2
+
+Kurtis Jemison
 
 # Database description
 Write the database description and requirements here
