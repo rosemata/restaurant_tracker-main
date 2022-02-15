@@ -14,4 +14,4 @@ Roselle Mata
 Kurtis Jemison
 
 # Database description
-Write the database description and requirements here
+Restaurant Database 
