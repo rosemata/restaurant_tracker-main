@@ -14,4 +14,4 @@ Roselle Mata
 Kurtis Jemison
 
 # Database description
-Restaurant Database 
+This Restaurant Database will have organized collection of a restaurant's Employees, Products, Salary, Transactions, Orders, etc. This database will contain insights for better management and customer dining experience. 
