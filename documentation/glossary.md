@@ -45,7 +45,6 @@
     Description: The food that can be purchased under restaurant's menu.
 
 # Relationship
-Per each relationship, determine relationship maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
 
 **Relationship: Employee-WorksAt-Restaurant**
 
