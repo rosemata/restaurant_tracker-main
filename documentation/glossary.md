@@ -13,7 +13,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Staff, Personnel, Associate, Worker
     
-    Description:
+    Description: A personel who works for the restaurant. Responsible for restaurant operations.
     
 **Entity Name: Restaurant**
 
@@ -21,7 +21,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Diner
     
-    Description:
+    Description: A business that serves food to costumers.
  
 **Entity Name: Location**
 
@@ -29,7 +29,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Place, Venue
     
-    Description:
+    Description: Gives the place where the restaurant is located.
     
 **Entity Name: Order**
 
@@ -37,7 +37,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Reservation, Booking, Request
     
-    Description:
+    Description: List of customer orders.
     
 **Entity Name: Customer**
 
@@ -45,15 +45,15 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Buyer, Client, Consumer
     
-    Description:
+    Description: A person who ccupies seat in the restaurant.
     
 **Entity Name: Order_Details**
 
     Document Name:
     
-    Synonyms: Receipt, Check
+    Synonyms: Receipt, Check, Bill, Charges
     
-    Description:
+    Description: Gives the total description of a customer's order.
     
 **Entity Name: Item**
 
@@ -61,7 +61,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Synonyms: Product, Food
     
-    Description:
+    Description: The food that can be purchased under restaurant's menu.
 
 # Relationship
 Per each relationship, determine relationship maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
