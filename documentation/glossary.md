@@ -10,43 +10,57 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 - Entity Name: Employee
 
     Document Name:
+    
     Synonyms:
+    
     Description:
     
 - Entity Name: Restaurant
 
     Document Name:
+    
     Synonyms:
+    
     Description:
  
 - Entity Name: Location
 
     Document Name:
+    
     Synonyms:
+    
     Description:
     
 - Entity Name: Order
 
     Document Name:
+    
     Synonyms:
+    
     Description:
     
 - Entity Name: Customer
 
     Document Name:
+    
     Synonyms:
+    
     Description:
     
 - Entity Name: Order_Details
 
     Document Name:
+    
     Synonyms:
+    
     Description:
     
 - Entity Name: Item
 
     Document Name:
+    
     Synonyms:
+    
     Description:
 
 # Relationship
