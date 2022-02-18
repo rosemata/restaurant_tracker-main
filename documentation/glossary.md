@@ -11,7 +11,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Staff, Personnel, Associate, Worker
     
     Description:
     
@@ -19,7 +19,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Diner
     
     Description:
  
@@ -27,7 +27,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Place, Venue
     
     Description:
     
@@ -35,7 +35,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Reservation, Booking, Request
     
     Description:
     
@@ -43,7 +43,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Buyer, Client, Consumer
     
     Description:
     
@@ -51,7 +51,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Receipt, Check
     
     Description:
     
@@ -59,7 +59,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
 
     Document Name:
     
-    Synonyms:
+    Synonyms: Product, Food
     
     Description:
 
