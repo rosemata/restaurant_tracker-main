@@ -1,10 +1,5 @@
 # Glossary
 
-Entity Name:
-Document Name
-Synonyms:
-Description
-
 # Entity
 Per each entity, document name, synonyms, and description in the glossary (see Section 4.2. from the zyBook)
 **Entity Name: Employee**
