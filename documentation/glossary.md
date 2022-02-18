@@ -30,7 +30,7 @@
 
     Synonyms: Buyer, Client, Consumer
     
-    Description: A person who ccupies seat in the restaurant.
+    Description: A person who occupies seat in the restaurant.
     
 **Entity Name: Order_Details**
 
