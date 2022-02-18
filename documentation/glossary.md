@@ -48,15 +48,39 @@
 
 **Relationship: Employee-WorksAt-Restaurant**
 
+    Minima
+    
+    Maxima
+
 **Relationship: Restaurant-ResidesIn-Location**
+
+    Minima
+    
+    Maxima
 
 **Relationship: Order-PurchasedAt-Restaurant**
 
+    Minima
+    
+    Maxima
+
 **Relationship: Order-PurchasedBy-Customer**
+
+    Minima
+    
+    Maxima
 
 **Relationship: Order-Contains-Order_Detail**
 
+    Minima
+    
+    Maxima
+
 **Relationship: Order_Details-Has-Item**
+
+    Minima
+    
+    Maxima
 
 # Attribute
 Per each attribute, determine attribute maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
