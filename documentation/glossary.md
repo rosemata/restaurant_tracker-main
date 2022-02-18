@@ -1,7 +1,7 @@
 # Glossary
 
 # Entity
-Per each entity, document name, synonyms, and description in the glossary (see Section 4.2. from the zyBook)
+
 **Entity Name: Employee**
     
     Synonyms: Staff, Personnel, Associate, Worker
