@@ -9,59 +9,59 @@ Description
 Per each entity, document name, synonyms, and description in the glossary (see Section 4.2. from the zyBook)
 **Entity Name: Employee**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Staff, Personnel, Associate, Worker
+    Synonyms: Staff, Personnel, Associate, Worker
     
-    - Description:
+    Description:
     
 **Entity Name: Restaurant**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Diner
+    Synonyms: Diner
     
-    - Description:
+    Description:
  
 **Entity Name: Location**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Place, Venue
+    Synonyms: Place, Venue
     
-    - Description:
+    Description:
     
 **Entity Name: Order**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Reservation, Booking, Request
+    Synonyms: Reservation, Booking, Request
     
-    - Description:
+    Description:
     
 **Entity Name: Customer**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Buyer, Client, Consumer
+    Synonyms: Buyer, Client, Consumer
     
-    - Description:
+    Description:
     
 **Entity Name: Order_Details**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Receipt, Check
+    Synonyms: Receipt, Check
     
-    - Description:
+    Description:
     
 **Entity Name: Item**
 
-    - Document Name:
+    Document Name:
     
-    - Synonyms: Product, Food
+    Synonyms: Product, Food
     
-    - Description:
+    Description:
 
 # Relationship
 Per each relationship, determine relationship maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
