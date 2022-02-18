@@ -7,7 +7,7 @@ Description
 
 # Entity
 Per each entity, document name, synonyms, and description in the glossary (see Section 4.2. from the zyBook)
-- Entity Name: Employee
+**- Entity Name: Employee**
 
     Document Name:
     
@@ -15,7 +15,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
     
-- Entity Name: Restaurant
+**- Entity Name: Restaurant**
 
     Document Name:
     
@@ -23,7 +23,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
  
-- Entity Name: Location
+**- Entity Name: Location**
 
     Document Name:
     
@@ -31,7 +31,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
     
-- Entity Name: Order
+**- Entity Name: Order**
 
     Document Name:
     
@@ -39,7 +39,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
     
-- Entity Name: Customer
+**- Entity Name: Customer**
 
     Document Name:
     
@@ -47,7 +47,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
     
-- Entity Name: Order_Details
+**- Entity Name: Order_Details**
 
     Document Name:
     
@@ -55,7 +55,7 @@ Per each entity, document name, synonyms, and description in the glossary (see S
     
     Description:
     
-- Entity Name: Item
+**- Entity Name: Item**
 
     Document Name:
     
