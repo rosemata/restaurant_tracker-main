@@ -86,59 +86,59 @@
     
 **Table Name: Employee**
     
-    Attribute: Restaurant_ID    1-1
+    Attribute: Restaurant_ID    1-1(1)
     
-    Attribute: Name             M-1
+    Attribute: Name             M-1(1)
     
-    Attribute: Job_Title        M-1
+    Attribute: Job_Title        M-1(1)
     
-    Attribute: Salary           M-M
+    Attribute: Salary           M-M(1)
     
 **Table Name: Restaurant**
     
-    Attribute: Zip_Code         1-1
+    Attribute: Zip_Code         1-1(1)
     
-    Attribute: State            1-1
+    Attribute: State            1-1(1)
     
-    Attribute: Num_Of_Employees M-M
+    Attribute: Num_Of_Employees M-M(1)
  
 **Table Name: Location**
     
-    Attribute: City_Name        1-1
+    Attribute: City_Name        1-1(1)
     
 **Table Name: Order**
 
-    Attribute: Customer_ID      1-1
+    Attribute: Customer_ID      1-1(1)
     
-    Attribute: Restaurant_ID    M-M
+    Attribute: Restaurant_ID    M-M(1)
     
-    Attribute: Date             M-M
+    Attribute: Date             M-M(0)
     
-    Attribute: Total_Cost       M-M
+    Attribute: Total_Cost       M-M(0)
     
-    Attribute: Num_Items        M-M
+    Attribute: Num_Items        M-M(0)
     
 **Table Name: Customer**
 
-    Attribute: Phone_Number     1-M
+    Attribute: Phone_Number     1-M(0)
     
-    Attribute: Name             M-1
+    Attribute: Name             M-1(1)
     
 **Table Name: Order_Details**
 
-    Attribute: Order_ID         1-1
+    Attribute: Order_ID         1-1(1)
     
-    Attribute: Item_ID          1-1
+    Attribute: Item_ID          1-1(1)
     
-    Attribute: Quantity         M-M
+    Attribute: Quantity         M-M(0)
     
-    Attribute: Cost             M-M
+    Attribute: Cost             M-M(0)
     
 **Table Name: Item**
 
-    Attribute: Name             M-1
+    Attribute: Name             M-1(1)
     
-    Attribute: Cost             M-M
+    Attribute: Cost             M-M(0)
     
-    Attribute: Quantity         M-M
+    Attribute: Quantity         M-M(0)
 
