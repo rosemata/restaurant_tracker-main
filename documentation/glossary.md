@@ -48,39 +48,39 @@
 
 **Relationship: Employee-WorksAt-Restaurant**
 
-    Minima
+    Minima: zero-zero
     
-    Maxima
+    Maxima: one-one
 
 **Relationship: Restaurant-ResidesIn-Location**
 
-    Minima
+    Minima: one-one
     
-    Maxima
+    Maxima:  one-many
 
 **Relationship: Order-PurchasedAt-Restaurant**
 
-    Minima
+    Minima: many-one
     
-    Maxima
+    Maxima: many-many
 
 **Relationship: Order-PurchasedBy-Customer**
 
-    Minima
+    Minima: many-one
     
-    Maxima
+    Maxima: many-many
 
 **Relationship: Order-Contains-Order_Detail**
 
-    Minima
+    Minima: many-one
     
-    Maxima
+    Maxima: many-many
 
 **Relationship: Order_Details-Has-Item**
 
-    Minima
+    Minima: many:one
     
-    Maxima
+    Maxima: many-many
 
 # Attribute
 Per each attribute, determine attribute maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
