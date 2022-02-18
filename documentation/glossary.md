@@ -70,7 +70,7 @@
     
     Maxima: many-many
 
-**Relationship: Order-Contains-Order_Detail**
+**Relationship: Order_Details-Contains-Order**
 
     Minima: many-one
     
@@ -83,4 +83,46 @@
     Maxima: many-many
 
 # Attribute
-Per each attribute, determine attribute maxima and minima and document it in the glossary (see Section 4.3. from the zyBook)
+    
+**Table Name: Employee**
+    
+    Attribute: Employee_ID
+    
+    Attribute: Restaurant_ID
+    
+**Table Name: Restaurant**
+    
+    Attribute: 
+    
+    Attribute:
+ 
+**Table Name: Location**
+    
+    Attribute: 
+    
+    Attribute:
+    
+**Table Name: Order**
+
+    Attribute: 
+    
+    Attribute:
+    
+**Table Name: Customer**
+
+    Attribute: 
+    
+    Attribute:
+    
+**Table Name: Order_Details**
+
+    Attribute: 
+    
+    Attribute:
+    
+**Table Name: Item**
+
+    Attribute: 
+    
+    Attribute:
+
