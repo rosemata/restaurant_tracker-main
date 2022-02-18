@@ -86,43 +86,59 @@
     
 **Table Name: Employee**
     
-    Attribute: Employee_ID
-    
     Attribute: Restaurant_ID
+    
+    Attribute: Name
+    
+    Attribute: Job_Title
+    
+    Attribute: Salary
     
 **Table Name: Restaurant**
     
-    Attribute: 
+    Attribute: Zip_Code
     
-    Attribute:
+    Attribute: State
+    
+    Attribute: Num_Of_Employees
  
 **Table Name: Location**
     
-    Attribute: 
-    
-    Attribute:
+    Attribute: City_Name
     
 **Table Name: Order**
 
-    Attribute: 
+    Attribute: Customer_ID
     
-    Attribute:
+    Attribute: Restaurant_ID
+    
+    Attribute: Date
+    
+    Attribute: Total_Cost
+    
+    Attribute: Num_Items
     
 **Table Name: Customer**
 
-    Attribute: 
+    Attribute: Phone_Number
     
-    Attribute:
+    Attribute: Name
     
 **Table Name: Order_Details**
 
-    Attribute: 
+    Attribute: Order_ID
     
-    Attribute:
+    Attribute: Item_ID
+    
+    Attribute: Quantity
+    
+    Attribute: Cost
     
 **Table Name: Item**
 
-    Attribute: 
+    Attribute: Name
     
-    Attribute:
+    Attribute: Cost
+    
+    Attribute: Quantity
 
