@@ -159,4 +159,11 @@
     Attribute: Quantity         M-M(0)  NOT NULL
 
 
-#  Supertypes, Subtypes and Partitions
+# Supertypes, Subtypes and Partitions
+
+# Cascade and Restrict Actions for Dependency Relationships
+
+# Cascade and Restrict on Foreign Keys that Implement Dependency Relationships. 
+
+# Implementing attribute types:
+
