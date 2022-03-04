@@ -86,59 +86,77 @@
     
 **Table Name: Employee**
     
-    Attribute: Restaurant_ID    1-1(1)
+    Attribute: Customer_ID      1-1(1)  PRIMARY KEY
     
-    Attribute: Name             M-1(1)
+    Attribute: Restaurant_ID    1-1(1)  FOREIGN KEY
     
-    Attribute: Job_Title        M-1(1)
+    Attribute: Name             M-1(1)  NOT NULL
     
-    Attribute: Salary           M-M(1)
+    Attribute: Job_Title        M-1(1)  NOT NULL
+    
+    Attribute: Salary           M-M(1)  NOT NULL
     
 **Table Name: Restaurant**
+
+    Attribute: Restaurant_ID    M-M(1)  PRIMARY KEY
     
-    Attribute: Zip_Code         1-1(1)
+    Attribute: Zip_Code         1-1(1)  FOREIGN KEY
     
-    Attribute: State            1-1(1)
+    Attribute: State            1-1(1)  NOT NULL
     
-    Attribute: Num_Of_Employees M-M(1)
+    Attribute: Num_Of_Employees M-M(1)  NOT NULL
  
 **Table Name: Location**
+
+    Attribute: Zip_Code         M-M(1)  PRIMARY KEY
     
-    Attribute: City_Name        1-1(1)
+    Attribute: City_Name        1-1(1)  NOT NULL
     
 **Table Name: Order**
 
-    Attribute: Customer_ID      1-1(1)
+    Attribute: Order_ID         1-1(1)  PRIMARY KEY
+
+    Attribute: Customer_ID      1-1(1)  FOREIGN KEY
     
-    Attribute: Restaurant_ID    M-M(1)
+    Attribute: Restaurant_ID    M-M(1)  FOREIGN KEY
     
-    Attribute: Date             M-M(0)
+    Attribute: Date             M-M(0)  NOT NULL
     
-    Attribute: Total_Cost       M-M(0)
+    Attribute: Total_Cost       M-M(0)  NOT NULL
     
-    Attribute: Num_Items        M-M(0)
+    Attribute: Num_Items        M-M(0)  NOT NULL
     
 **Table Name: Customer**
 
-    Attribute: Phone_Number     1-M(0)
+    Attribute: Customer_ID      1-1(1)  PRIMARY KEY
+
+    Attribute: Phone_Number     1-M(0)  NOT NULL
     
-    Attribute: Name             M-1(1)
+    Attribute: Name             M-1(1)  NOT NULL
+    
+    Attribute: Email            M-1(1)  NOT NULL
     
 **Table Name: Order_Details**
 
-    Attribute: Order_ID         1-1(1)
+    Attribute: ID               1-1(1)  PRIMARY KEY
+
+    Attribute: Order_ID         1-1(1)  NOT NULL
     
-    Attribute: Item_ID          1-1(1)
+    Attribute: Item_ID          1-1(1)  NOT NULL
     
-    Attribute: Quantity         M-M(0)
+    Attribute: Quantity         M-M(0)  NOT NULL
     
-    Attribute: Cost             M-M(0)
+    Attribute: Cost             M-M(0)  NOT NULL
     
 **Table Name: Item**
 
-    Attribute: Name             M-1(1)
-    
-    Attribute: Cost             M-M(0)
-    
-    Attribute: Quantity         M-M(0)
+    Attribute: Item_ID          1-1(1)  PRIMARY KEY
 
+    Attribute: Name             M-1(1)  NOT NULL
+    
+    Attribute: Cost             M-M(0)  NOT NULL
+    
+    Attribute: Quantity         M-M(0)  NOT NULL
+
+
+#  Supertypes, Subtypes and Partitions
