@@ -157,11 +157,27 @@
     Attribute: Cost             M-M(0)  NOT NULL
     
     Attribute: Quantity         M-M(0)  NOT NULL
+    
+  
+**Dependent entities and dependency relationships
 
+    Employee - dependent
+    
+    Restaurant - dependent
+    
+    Location - independent
+    
+    Order - dependent
+    
+    Customer - independent
+    
+    Order_Details - dependent
+    
+    Item - independent
 
 **Supertypes, Subtypes and Partitions
 
-    [Description]
+    Employee, Restaurant, Location, Order, Customer, Order_Details, Item
 
 **Cascade and Restrict Actions for Dependency Relationships
 
