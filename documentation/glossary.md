@@ -177,17 +177,27 @@
 
 **Supertypes, Subtypes and Partitions
 
-    Employee, Restaurant, Location, Order, Customer, Order_Details, Item
+    Employee has Restaurant,  
+    
+    Location, Order, Customer
+    
+    Order_Details, Item
 
-**Cascade and Restrict Actions for Dependency Relationships
-
-    [Description]
 
 **Cascade and Restrict on Foreign Keys that Implement Dependency Relationships
 
-    [Description]
+    employee unique, required
+    
+    restaurant unique, required
+    
+    location simple, required
+    
+    order unique, simple
+    
+    customer unique, required
+    
+    order_details simple
+    
+    item simple
 
-**Implementing attribute types:
-
-    [Description]
 
