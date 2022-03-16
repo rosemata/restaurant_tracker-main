@@ -42,7 +42,7 @@
   
   <body>
 <table class="table" align="center">
-	<tr style="background: #00ffff; height: 120px; ">
+	<tr style="background: #000000; height: 120px; ">
 		<td colspan="2" align="center">
 			<iframe frameborder="0" src="<c:url value='/jsps/top.jsp'/>" name="top"></iframe>
 		</td>

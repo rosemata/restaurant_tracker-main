@@ -22,9 +22,12 @@
   </head>
   
   <body>
-    <h1>This Restaurant Database will have organized collection of a restaurant's Employees, 
-		Products, Salary, Transactions, Orders, etc. This database will contain insights for better 
-		management and customer dining experience.</h1>
-    
+    <h1>CRUD operations for Entity1 </h1>
+    <br>
+	<a href="<c:url value='/jsps/entity1/entity1create.jsp'/>" target="_parent">Create Entity1</a> |&nbsp; 
+	<a href="<c:url value='/jsps/entity1/entity1read.jsp'/>" target="_parent">Read Entity1</a> |&nbsp;
+	<a href="<c:url value='/jsps/entity1/entity1update.jsp'/>" target="_parent">Update Entity1</a> |&nbsp;	 
+	<a href="<c:url value='/jsps/entity1/entity1delete.jsp'/>" target="_parent">Delete Entity1</a>	
+	    
   </body>
 </html>

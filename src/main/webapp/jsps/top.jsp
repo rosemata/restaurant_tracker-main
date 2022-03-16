@@ -18,7 +18,7 @@
 	-->
 <style type="text/css">
 	body {
-		background: #ffee00; 
+		background: #00ca8e; 
 	}
 	a {
 		text-transform:none;
@@ -31,7 +31,7 @@
   </head>
   
   <body>
-<h1 style="text-align: center;">Kurtis Jemison</h1>
+<h1 style="text-align: center;">Restaurant Database</h1>
 <div style="font-size: 10pt;">
 	<c:choose>
 		<c:when test="${empty sessionScope.session_user }">

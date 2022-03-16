@@ -5,9 +5,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <base href="">
     
-    <title>body</title>
+    <title>Delete Entity1</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -22,9 +21,13 @@
   </head>
   
   <body>
-    <h1>This Restaurant Database will have organized collection of a restaurant's Employees, 
-		Products, Salary, Transactions, Orders, etc. This database will contain insights for better 
-		management and customer dining experience.</h1>
-    
+  <h1>Delete Entity1</h1>
+<form action="<c:url value='/Entity1ServletDelete'/>" method="post">
+	<input type="hidden" name="method" value="search"/>
+	Delete User   :<input type="text" name="username" value="${form.username }"/>
+	<span style="color: red; font-weight: 900">${errors.username }</span>
+	<br/>
+	<input type="submit" value="Delete Entity1"/>
+</form>
   </body>
 </html>

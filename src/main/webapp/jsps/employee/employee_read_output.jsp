@@ -5,9 +5,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <base href="">
     
-    <title>body</title>
+    <title>Read Entity Output</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -22,9 +21,17 @@
   </head>
   
   <body>
-    <h1>This Restaurant Database will have organized collection of a restaurant's Employees, 
-		Products, Salary, Transactions, Orders, etc. This database will contain insights for better 
-		management and customer dining experience.</h1>
-    
-  </body>
+  <h1>Read Entity Output</h1>
+<p style="color: red; font-weight: 900">${msg }</p>
+<form>
+	User    :<input type="text" name="username" value="${entity1.username }" disabled/>
+	<br/>
+	Password：<input type="text" name="password" value="${entity1.password }" disabled/>
+	<br/>
+	Email	：<input type="text" name="email" value="${entity1.email }" disabled/>
+	<br/>
+</form>
+
+<button onclick="window.location.href='<c:url value='/jsps/main.jsp'/>'">Continue</button>
+</body>
 </html>
