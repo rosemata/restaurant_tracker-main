@@ -51,5 +51,7 @@ This Restaurant Database will have organized collection of a restaurant's Employ
 ![Screen Shot 2022-03-15 at 11 34 31 PM](https://user-images.githubusercontent.com/93716153/158518356-1b734770-e9d8-4a67-8bbb-c1a0a0209359.png)
 ![Screen Shot 2022-03-15 at 11 34 25 PM](https://user-images.githubusercontent.com/93716153/158518358-95120196-8314-4ab5-9d8b-79844b3e9863.png)
 ![Screen Shot 2022-03-15 at 11 34 17 PM](https://user-images.githubusercontent.com/93716153/158518361-dd6dc9d7-ed2f-4c41-8097-35340d9f5461.png)
+![a](https://user-images.githubusercontent.com/93716153/158519039-90aaa898-12d8-4337-8a75-2960bb4c7463.png)
+![aa](https://user-images.githubusercontent.com/93716153/158519047-ee74169a-035d-4656-afcf-491f3126f452.png)
 
 ![Screen Shot 2022-03-15 at 11 30 37 PM](https://user-images.githubusercontent.com/93716153/158518325-021017ff-1982-4132-b875-21eff3d67c00.png)
