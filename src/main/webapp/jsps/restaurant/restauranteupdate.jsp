@@ -21,11 +21,11 @@
   </head>
   
   <body>
-  <h1>Employee Update</h1>
+  <h1>Restaurant Update</h1>
 <form action="<c:url value='/Entity1ServletUpdate'/>" method="post">
 	<input type="hidden" name="method" value="search"/>
-	Employee ID  :<input type="text" name="employee_id" value="${form.employee_id }"/>
-	<span style="color: red; font-weight: 900">${errors.employee_id }</span>
+	Restaurant ID  :<input type="text" name="restaurant_id" value="${form.restaurant_id }"/>
+	<span style="color: red; font-weight: 900">${errors.restaurant_id }</span>
 	<br/>
 	<input type="submit" value="Update Employee"/>
 </form>

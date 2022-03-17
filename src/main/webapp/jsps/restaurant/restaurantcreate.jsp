@@ -6,7 +6,7 @@
 <html>
   <head>
     
-    <title>Update Entity1</title>
+    <title>Employee Create</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -21,13 +21,19 @@
   </head>
   
   <body>
-  <h1>Employee Update</h1>
-<form action="<c:url value='/Entity1ServletUpdate'/>" method="post">
-	<input type="hidden" name="method" value="search"/>
-	Employee ID  :<input type="text" name="employee_id" value="${form.employee_id }"/>
-	<span style="color: red; font-weight: 900">${errors.employee_id }</span>
+  <h1>Restaurant Create</h1>
+<form action="<c:url value='/Entity1ServletCreate'/>" method="post">
+	
+	Zip Code：<input type="password" name="zip_code" value="${form.zip_code }"/>
+	<span style="color: red; font-weight: 900">${errors.zip_code }</span>
 	<br/>
-	<input type="submit" value="Update Employee"/>
+	State	：<input type="text" name="state" value="${form.state }"/>
+	<span style="color: red; font-weight: 900">${errors.state }</span>
+	<br/>
+	Num of Employee	：<input type="text" name="num_of_employee" value="${form.num_of_employee }"/>
+	<span style="color: red; font-weight: 900">${errors.num_of_employee }</span>
+	<br/>
+	<input type="submit" value="Create Employee"/>
 </form>
   </body>
 </html>

@@ -21,21 +21,26 @@
   </head>
   
   <body>
-  <h1>Employee Create</h1>
+  <h1> Create Order Details</h1>
 <form action="<c:url value='/Entity1ServletCreate'/>" method="post">
-	Restaurant ID    :<input type="text" name="restaurant_id" value="${form.restaurant_id}"/>
-	<span style="color: red; font-weight: 900">${errors.restaurant_id }</span>
+
+	Order ID	：<input type="text" name="customer_id" value="${form.order_id }"/>
+	<span style="color: red; font-weight: 900">${errors.order_id }</span>
 	<br/>
-	Name：<input type="password" name="name" value="${form.name }"/>
-	<span style="color: red; font-weight: 900">${errors.name }</span>
+	
+	Item ID	：<input type="text" name="item_id" value="${form.item_id }"/>
+	<span style="color: red; font-weight: 900">${errors.item_id }</span>
 	<br/>
-	Job Title	：<input type="text" name="job_title" value="${form.job_title }"/>
-	<span style="color: red; font-weight: 900">${errors.job_title }</span>
+	
+	Quantity	：<input type="text" name="quantity" value="${form.quantity }"/>
+	<span style="color: red; font-weight: 900">${errors.item_quantity }</span>
 	<br/>
-	Salary	：<input type="text" name="salary" value="${form.salary }"/>
-	<span style="color: red; font-weight: 900">${errors.salary }</span>
+	
+	Cost	：<input type="text" name="cost" value="${form.cost }"/>
+	<span style="color: red; font-weight: 900">${errors.cost }</span>
 	<br/>
-	<input type="submit" value="Create Employee"/>
+	
+	<input type="submit" value="Create Order Details"/>
 </form>
   </body>
 </html>

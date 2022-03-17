@@ -6,7 +6,7 @@
 <html>
   <head>
     
-    <title>Update Entity1</title>
+    <title>Delete Entity</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -21,13 +21,20 @@
   </head>
   
   <body>
-  <h1>Employee Update</h1>
-<form action="<c:url value='/Entity1ServletUpdate'/>" method="post">
-	<input type="hidden" name="method" value="search"/>
-	Employee ID  :<input type="text" name="employee_id" value="${form.employee_id }"/>
-	<span style="color: red; font-weight: 900">${errors.employee_id }</span>
+  <h1>Restaurant Entity</h1>
+<p style="color: red; font-weight: 900">${msg }</p>
+<form action="<c:url value='/Entity1ServletDelete'/>" method="post">
+	<input type="hidden" name="method" value="delete"/>
+		<input type="hidden" name="username" value="${entity1.username }"/>
+	User    :<input type="text" name="username" value="${entity1.username }" disabled/>
 	<br/>
-	<input type="submit" value="Update Employee"/>
+	
+	Password：<input type="text" name="password" value="${entity1.password }" disabled/>
+	<br/>
+	Email	：<input type="text" name="email" value="${entity1.email }" disabled/>
+	<br/>
+	<input type="submit" value="Delete Entity1"/>
 </form>
-  </body>
+
+</body>
 </html>

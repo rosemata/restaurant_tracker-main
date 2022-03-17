@@ -21,20 +21,23 @@
   </head>
   
   <body>
-  <h1>Read Employee</h1>
+  <h1>Read Item ID</h1>
 <p style="color: red; font-weight: 900">${msg }</p>
 <form action="<c:url value='/Entity1ServletRead'/>" method="post">
 	<input type="hidden" name="method" value="regist"/>
-	Employee ID    :<input type="text" name="employee_id" value="${form.employee_id }"/>
-	<span style="color: red; font-weight: 900">${errors.employee_id }</span>
+	
+	Item ID	：<input type="text" name="item_id" value="${form.item_id }"/>
+	<span style="color: red; font-weight: 900">${errors.item_id }</span>
 	<br/>
+
+	
 <%-- 	Password：<input type="password" name="password" value="${form.password }"/>
 	<span style="color: red; font-weight: 900">${errors.password }</span>
 	<br/>
 	Email	：<input type="text" name="email" value="${form.email }"/>
 	<span style="color: red; font-weight: 900">${errors.email }</span>
 	<br/> --%>
-	<input type="submit" value="Read Employee"/>
+	<input type="submit" value="Read Item ID"/>
 </form>
   </body>
 </html>

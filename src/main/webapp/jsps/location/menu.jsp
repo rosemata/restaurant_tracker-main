@@ -5,8 +5,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
+    <base href="">
     
-    <title>Update Entity1</title>
+    <title>body</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -21,13 +22,12 @@
   </head>
   
   <body>
-  <h1>Employee Update</h1>
-<form action="<c:url value='/Entity1ServletUpdate'/>" method="post">
-	<input type="hidden" name="method" value="search"/>
-	Employee ID  :<input type="text" name="employee_id" value="${form.employee_id }"/>
-	<span style="color: red; font-weight: 900">${errors.employee_id }</span>
-	<br/>
-	<input type="submit" value="Update Employee"/>
-</form>
+    <h1>CRUD operations for Location </h1>
+    <br>
+	<a href="<c:url value='/jsps/employee/employeecreate.jsp'/>" target="_parent">Create Location</a> |&nbsp; 
+	<a href="<c:url value='/jsps/employee/employeeread.jsp'/>" target="_parent">Read Location</a> |&nbsp;
+	<a href="<c:url value='/jsps/employee/employeeupdate.jsp'/>" target="_parent">Update Location</a> |&nbsp;	 
+	<a href="<c:url value='/jsps/employee/employeedelete.jsp'/>" target="_parent">Delete Location</a>	
+	   
   </body>
 </html>
