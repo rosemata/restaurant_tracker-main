@@ -26,8 +26,6 @@ This Restaurant Database will have organized collection of a restaurant's Employ
 ![Screen Shot 2022-03-15 at 11 28 04 PM](https://user-images.githubusercontent.com/93716153/158518249-e3745ff3-398d-4f02-a88c-1df0fa6aca4e.png)
 ![Screen Shot 2022-03-15 at 11 27 46 PM](https://user-images.githubusercontent.com/93716153/158518250-81c9fd6e-a846-4bfd-a3a4-9404d3afcf1d.png)
 ![Screen Shot 2022-03-15 at 11 27 39 PM](https://user-images.githubusercontent.com/93716153/158518251-c3b7a8ce-a4aa-4ff0-ad8c-4b5806fec882.png)
-![Screen Shot 2022-03-15 at 11 34 08 PM](https://user-images.githubusercontent.com/93716153/158518311-b05e10e5-1aa9-42d7-a9f9-2c60ee2e215d.png)
-![Screen Shot 2022-03-15 at 11 34 01 PM](https://user-images.githubusercontent.com/93716153/158518313-9d7c1233-6ae8-4665-a1e5-2512c383d324.png)
 ![Screen Shot 2022-03-15 at 11 33 26 PM](https://user-images.githubusercontent.com/93716153/158518315-1bf01361-fe19-491f-9856-c138a324e40e.png)
 ![Screen Shot 2022-03-15 at 11 33 19 PM](https://user-images.githubusercontent.com/93716153/158518316-23fbb21f-ff6b-454b-899d-f317e1bec633.png)
 ![Screen Shot 2022-03-15 at 11 33 12 PM](https://user-images.githubusercontent.com/93716153/158518317-849ebe72-9e73-4b52-b511-3f488ce9fbc8.png)
@@ -48,9 +46,7 @@ This Restaurant Database will have organized collection of a restaurant's Employ
 ![Screen Shot 2022-03-15 at 11 34 55 PM](https://user-images.githubusercontent.com/93716153/158518353-73821ec5-06f7-41d4-bb8a-4afc837c34e0.png)
 ![Screen Shot 2022-03-15 at 11 34 48 PM](https://user-images.githubusercontent.com/93716153/158518354-6ac64c6c-2870-4a0c-acba-b026822ba46f.png)
 ![Screen Shot 2022-03-15 at 11 34 40 PM](https://user-images.githubusercontent.com/93716153/158518355-a29cff77-75dd-434a-b784-cfb26c1fa012.png)
-![Screen Shot 2022-03-15 at 11 34 31 PM](https://user-images.githubusercontent.com/93716153/158518356-1b734770-e9d8-4a67-8bbb-c1a0a0209359.png)
-![Screen Shot 2022-03-15 at 11 34 25 PM](https://user-images.githubusercontent.com/93716153/158518358-95120196-8314-4ab5-9d8b-79844b3e9863.png)
-![Screen Shot 2022-03-15 at 11 34 17 PM](https://user-images.githubusercontent.com/93716153/158518361-dd6dc9d7-ed2f-4c41-8097-35340d9f5461.png)
+
 ![a](https://user-images.githubusercontent.com/93716153/158519039-90aaa898-12d8-4337-8a75-2960bb4c7463.png)
 ![aa](https://user-images.githubusercontent.com/93716153/158519047-ee74169a-035d-4656-afcf-491f3126f452.png)
 
