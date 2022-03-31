@@ -6,7 +6,7 @@
 1. [Database description](#description)
 
 # Database
-Restaurant Database
+Restaurant
 
 # Author(s)
 Roselle Mata
