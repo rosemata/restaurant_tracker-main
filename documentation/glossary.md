@@ -37,12 +37,6 @@
     Synonyms: Receipt, Check, Bill, Charges
     
     Description: Gives the total description of a customer's order.
-    
-**Entity Name: Item**
-
-    Synonyms: Product, Food
-    
-    Description: The food that can be purchased under restaurant's menu.
 
 # Relationship
 
@@ -73,12 +67,6 @@
 **Relationship: Order_Details-Contains-Order**
 
     Minima: many-one
-    
-    Maxima: many-many
-
-**Relationship: Order_Details-Has-Item**
-
-    Minima: many:one
     
     Maxima: many-many
 
@@ -148,17 +136,6 @@
     
     Attribute: Cost             M-M(0)  NOT NULL
     
-**Table Name: Item**
-
-    Attribute: Item_ID          1-1(1)  PRIMARY KEY
-
-    Attribute: Name             M-1(1)  NOT NULL
-    
-    Attribute: Cost             M-M(0)  NOT NULL
-    
-    Attribute: Quantity         M-M(0)  NOT NULL
-    
-  
 **Dependent entities and dependency relationships
 
     Employee - dependent
@@ -172,8 +149,6 @@
     Customer - independent
     
     Order_Details - dependent
-    
-    Item - independent
 
 **Supertypes, Subtypes and Partitions
 
@@ -181,8 +156,7 @@
     
     Location, Order, Customer
     
-    Order_Details, Item
-
+    Order_Details,
 
 **Cascade and Restrict on Foreign Keys that Implement Dependency Relationships
 
@@ -198,6 +172,3 @@
     
     order_details simple
     
-    item simple
-
-
