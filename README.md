@@ -6,7 +6,7 @@
 1. [Database description](#description)
 
 # Database
-Restaurant
+restaurant_tracker
 
 # Author(s)
 Roselle Mata
