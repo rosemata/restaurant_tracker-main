@@ -1,16 +1,13 @@
+DROP DATABASE IF EXISTS restaurant_tracker;
 CREATE DATABASE restaurant_tracker;
 
 use  restaurant_tracker;
 
-CREATE TABLE employee (
-  employee_id INT UNIQUE NOT NULL,
-  restaurant_id SMALLINT UNIQUE NOT NULL,
-  name VARCHAR(50) NOT NULL,
-  job_title VARCHAR(30) NOT NULL,
-  salary INT NOT NULL,
-  
-  PRIMARY KEY(employee_id),
-  FOREIGN KEY(restaurant_id) REFERENCES restaurant(restaurant_id)
+CREATE TABLE location (
+	zip_code CHAR(5) UNIQUE NOT NULL,
+	city_name VARCHAR(30) UNIQUE NOT NULL,
+
+	PRIMARY KEY(zip_code)
 );
 
 CREATE TABLE restaurant (
@@ -23,28 +20,15 @@ CREATE TABLE restaurant (
 	FOREIGN KEY(zip_code) REFERENCES location(zip_code)
 );
 
-CREATE TABLE location (
-	zip_code CHAR(5) UNIQUE NOT NULL,
-	city_name VARCHAR(30) UNIQUE NOT NULL,
-
-	PRIMARY KEY(zip_code)
-);
-
-CREATE TABLE customer_order (
-	order_id SMALLINT AUTO_INCREMENT UNIQUE NOT NULL,
-    customer_id INT UNIQUE NOT NULL,
-    restaurant_id INT UNIQUE NOT NULL,
-    date DATE NOT NULL,
-    total_cost SMALLINT NOT NULL,
-    num_items SMALLINT NOT NULL,
-    
-    PRIMARY KEY(order_id),
-    FOREIGN KEY(customr_id) REFERENCES customer(customer_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE,
-    FOREIGN KEY(restaurant_id) REFERENCES restaurant(restaurant_id)
-		ON UPDATE CASCADE
-		ON DELETE CASCADE
+CREATE TABLE employee (
+  employee_id INT UNIQUE NOT NULL,
+  restaurant_id SMALLINT UNIQUE NOT NULL,
+  name VARCHAR(50) NOT NULL,
+  job_title VARCHAR(30) NOT NULL,
+  salary INT NOT NULL,
+  
+  PRIMARY KEY(employee_id),
+  FOREIGN KEY(restaurant_id) REFERENCES restaurant(restaurant_id)
 );
 
 CREATE TABLE customer (
@@ -54,6 +38,23 @@ CREATE TABLE customer (
     email VARCHAR(50) NOT NULL,
     
     PRIMARY KEY(customer_id)
+);
+
+CREATE TABLE customer_order (
+	order_id SMALLINT AUTO_INCREMENT UNIQUE NOT NULL,
+    customer_id INT UNIQUE NOT NULL,
+    restaurant_id SMALLINT UNIQUE NOT NULL,
+    date DATE NOT NULL,
+    total_cost SMALLINT NOT NULL,
+    num_items SMALLINT NOT NULL,
+    
+    PRIMARY KEY(order_id),
+    FOREIGN KEY(customer_id) REFERENCES customer(customer_id)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE,
+    FOREIGN KEY(restaurant_id) REFERENCES restaurant(restaurant_id)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
 );
 
 CREATE TABLE order_details (
