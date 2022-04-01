@@ -32,7 +32,7 @@ CREATE TABLE employee (
 );
 
 CREATE TABLE customer (
-	customer_id INT UNIQUE NOT NULL,
+	customer_id INT AUTO_INCREMENT UNIQUE NOT NULL,
     phone_number VARCHAR(15) NOT NULL,
     name VARCHAR(40) NOT NULL,
     email VARCHAR(50) NOT NULL,
