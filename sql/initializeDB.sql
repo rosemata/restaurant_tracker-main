@@ -25,6 +25,8 @@ CREATE TABLE restaurant (
   
 	PRIMARY KEY(restaurant_id),
 	FOREIGN KEY(zip_code) REFERENCES location(zip_code)
+		ON UPDATE CASCADE
+		ON DELETE CASCADE
 );
 
 INSERT INTO restaurant_tracker.restaurant
@@ -43,6 +45,8 @@ CREATE TABLE employee (
   
   PRIMARY KEY(employee_id),
   FOREIGN KEY(restaurant_id) REFERENCES restaurant(restaurant_id)
+	ON UPDATE CASCADE
+	ON DELETE CASCADE
 );
 
 INSERT INTO restaurant_tracker.employee
