@@ -62,11 +62,11 @@ CREATE TABLE customer (
 );
 
 INSERT INTO restaurant_tracker.customer
-VALUES (1, 630 551 1234, 'Kurtis Jemison', 'kurtis2@gmail.com'),
-	   (2, 630 694 9273, 'Roselle Mata', 'rmata@gmail.com'),
-	   (3, 458 894 5534, 'Jimmy John', 'jimmyjohn@gmail.com'),
-	   (4, 213 312 1239, 'Karen James', 'karenJames@gmail.com'),
-	   (5, 985 248 1235, 'Chuck E Cheese', 'chuck@cheese.com');
+VALUES (1, '630 551 1234', 'Kurtis Jemison', 'kurtis2@gmail.com'),
+	   (2, '630 694 9273', 'Roselle Mata', 'rmata@gmail.com'),
+	   (3, '458 894 5534', 'Jimmy John', 'jimmyjohn@gmail.com'),
+	   (4, '213 312 1239', 'Karen James', 'karenJames@gmail.com'),
+	   (5, '985 248 1235', 'Chuck E Cheese', 'chuck@cheese.com');
 
 CREATE TABLE customer_order (
 	order_id SMALLINT AUTO_INCREMENT UNIQUE NOT NULL,
@@ -89,7 +89,7 @@ INSERT INTO restaurant_tracker.customer_order
 VALUES (1, 1, 1, '2022-02-13', 640, 23),
 	   (2, 2, 2, '2022-02-16', 23, 4),
 	   (3, 3, 3, '2022-02-26', 59, 6),
-	   (4, 4, 5, '2022-02-13', 78, 7),
+	   (4, 4, 4, '2022-02-13', 78, 7),
 	   (5, 5, 5, '2022-02-20', 15, 2);
        
 CREATE TABLE order_details (
