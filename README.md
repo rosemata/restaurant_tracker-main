@@ -1,4 +1,4 @@
-# dbs-restaurant_tracker
+# dbs-business-chain-tracker
 
 ## Table of Contents
 1. [Database](#database)
